@@ -6,6 +6,7 @@ import GlobalContextProvider from "@/state";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
+  metadataBase: new URL("https://photoconvertinto20kb.com"),
   title: "Photo Convert Into 20Kb - Compress Into 20Kb Online",
   description: `Here convert your photo like jpg, png, jpeg or any image file into 20kb online. Upload your photo and it will convert/compress photo into 20kb`,
   themeColor: "#3D0264",

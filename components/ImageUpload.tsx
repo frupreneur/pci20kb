@@ -82,14 +82,16 @@ export default function ImageUpload() {
         <p>
           Convert To: <span className="text-primary">{`<=`}</span>
         </p>
-        <Select
-          className=""
-          options={compressionValueOptions}
-          defaultValue={compressionValue}
-          // @ts-ignore
-          onChange={setCompressionValue}
-          instanceId="select-box"
-        />
+        <label htmlFor="react-select-select-box-input">
+          <Select
+            className=""
+            options={compressionValueOptions}
+            defaultValue={compressionValue}
+            // @ts-ignore
+            onChange={setCompressionValue}
+            instanceId="select-box"
+          />
+        </label>
       </div>
       <div
         className="flex w-full h-[150px] justify-center items-center border-dashed border-2 border-sky-500 my-5 "

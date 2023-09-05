@@ -158,7 +158,7 @@ export default function ImageUpload() {
               </p>
               <p>
                 <span className="text-primary">New file size:</span>{" "}
-                {preview[0].newSize / 1000 + "kb"}
+                {(preview[0].newSize / 1000).toFixed(2) + "kb"}
               </p>
               <p>
                 <span className="text-primary"> Percent reduced:</span>{" "}

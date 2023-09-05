@@ -47,7 +47,13 @@ export default function ImageUpload() {
   };
 
   React.useEffect(() => {
-    if (files[0]) {
+    setFiles([]);
+    setPreview([]);
+    setConverting(false);
+  }, [compressionValue]);
+
+  React.useEffect(() => {
+    if (files.length > 0) {
       (async () => {
         const compressedFile = await handleCompression(
           files[0],
@@ -69,12 +75,6 @@ export default function ImageUpload() {
       })();
     }
   }, [files, compressionValue.value]);
-
-  React.useEffect(() => {
-    setFiles([]);
-    setPreview([]);
-    setConverting(false);
-  }, [compressionValue]);
 
   return (
     <>
@@ -147,11 +147,21 @@ export default function ImageUpload() {
               height={300}
             />
             <div className="previewDetails h-full text-left flex flex-col justify-between gap-2 ">
-              <p>Name: {preview[0].name}</p>
-              <p>Old file size: {preview[0].oldSize}</p>
-              <p>New file size: {preview[0].newSize}</p>
               <p>
-                Percent reduced:{" "}
+                <span className="text-primary">Name:</span> {preview[0].name}
+              </p>
+              <p>
+                <span className="text-primary">Old file size:</span>{" "}
+                {preview[0].oldSize > 100000
+                  ? (preview[0].oldSize / 1000000).toFixed(2) + "MB"
+                  : (preview[0].oldSize / 1000).toFixed(2) + "kb"}
+              </p>
+              <p>
+                <span className="text-primary">New file size:</span>{" "}
+                {preview[0].newSize / 1000 + "kb"}
+              </p>
+              <p>
+                <span className="text-primary"> Percent reduced:</span>{" "}
                 {100 - (preview[0].newSize / preview[0].oldSize) * 100 + "%"}
               </p>
               <button className="btn mx-0" onClick={handleDownload}>

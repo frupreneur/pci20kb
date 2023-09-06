@@ -2,6 +2,7 @@ import "./globals.css";
 import { Header, Footer } from "@/components";
 import { Inter } from "next/font/google";
 import GlobalContextProvider from "@/state";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -40,10 +41,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3566559026010510"
+          crossOrigin="anonymous"
+        ></script>
+      </head>
       <body className={inter.className} suppressHydrationWarning={true}>
         <GlobalContextProvider>
           <Header />
-          <main className="">
+          <main className=" ">
             <div className="site-wrap" id="site-wrap">
               {children}
             </div>

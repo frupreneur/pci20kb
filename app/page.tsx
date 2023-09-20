@@ -221,7 +221,8 @@ export default function StartingWithPage() {
                 "/postcard-photo-size-dos-and-donts-for-picture-perfect-postcards"
               }
             >
-              Postcard Photo Size: Do's and Don'ts for Picture-Perfect Postcards
+              {`              Postcard Photo Size: Do's and Don'ts for Picture-Perfect Postcards
+`}{" "}
             </Link>
           </li>
           <li>

@@ -23,7 +23,7 @@ export const menu: MenuType = [
 ];
 
 export const footerMenu: MenuType = [
-  { name: "Home", path: "/" },
+  { name: "Site Map", path: "/sitemap.xml" },
   {
     name: "About Us",
     path: "/about",

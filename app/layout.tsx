@@ -51,8 +51,8 @@ export default function RootLayout({
       <body className={inter.className} suppressHydrationWarning={true}>
         <GlobalContextProvider>
           <Header />
-          <main className=" ">
-            <div className="site-wrap" id="site-wrap">
+          <main className="">
+            <div className="site-wrap prose" id="site-wrap">
               {children}
             </div>
           </main>

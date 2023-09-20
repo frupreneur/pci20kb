@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { ImageUpload } from "@/components";
 import firstImage from "@/public/assets/convert photo into 20kb first step.jpg";
 import finalImage from "@/public/assets/convert photo into 20kb final step.jpg";
@@ -210,6 +211,34 @@ export default function StartingWithPage() {
           you.
         </p>
         <br />
+        <h2 className="text-left text-primary">
+          Featured Photo Conversion Posts
+        </h2>
+        <ul>
+          <li>
+            <Link
+              href={
+                "/postcard-photo-size-dos-and-donts-for-picture-perfect-postcards"
+              }
+            >
+              Postcard Photo Size: Do's and Don'ts for Picture-Perfect Postcards
+            </Link>
+          </li>
+          <li>
+            <Link href={"/7-effective-ways-to-resize-an-image-to-20KB"}>
+              7 Effective Ways to Resize an Image to 20KB
+            </Link>
+          </li>
+          <li>
+            <Link
+              href={
+                "/postcard-size-photo-and-passport-size-photo-in-dimension-in-pixels"
+              }
+            >
+              Postcard Size Photo & Passport Size Photo in dimension In Pixels
+            </Link>
+          </li>
+        </ul>
       </div>
     </>
   );

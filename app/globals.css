@@ -32,6 +32,7 @@ img {
   max-width: 100%;
   object-fit: cover;
   object-position: center center;
+  margin-inline: auto !important;
 }
 
 body {
@@ -788,7 +789,7 @@ article > p {
     font-size: 1rem;
   }
 
-  .logoSpan{
+  .logoSpan {
     font-size: 1rem;
   }
 }
@@ -806,6 +807,11 @@ article > p {
 .selectInput {
   min-width: 200px !important;
   margin: 0.5rem auto !important;
+}
+
+#excerpt {
+  text-decoration: none !important;
+  text-decoration: dotted !important;
 }
 
 @media screen and (min-width: 1170px) {

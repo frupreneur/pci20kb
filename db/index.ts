@@ -6,12 +6,12 @@ type MenuType = {
 export const menu: MenuType = [
   { name: "Home", path: "/" },
   {
-    name: "About Us",
-    path: "/about",
+    name: "Articles",
+    path: "/articles",
   },
   {
-    name: "Terms and Conditions",
-    path: "/terms-and-conditions",
+    name: "About Us",
+    path: "/about",
   },
 
   {

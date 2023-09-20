@@ -55,3 +55,6 @@ async function compressImage(imageFile: File, options: any): Promise<File> {
     );
   }
 }
+
+
+

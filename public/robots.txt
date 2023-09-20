@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Host
+Host: https://photoconvertinto20kb.com
+
+# Sitemaps
+Sitemap: https://photoconvertinto20kb.com/sitemap.xml

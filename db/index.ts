@@ -23,7 +23,7 @@ export const menu: MenuType = [
 ];
 
 export const footerMenu: MenuType = [
-  { name: "Site Map", path: "/sitemap.xml" },
+  { name: "Site Map", path: "https://photoconvertinto20kb.com/sitemap.xml" },
   {
     name: "About Us",
     path: "/about",

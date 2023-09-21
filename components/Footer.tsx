@@ -18,7 +18,12 @@ export default function Footer() {
         <ul className="footer-menu">
           {footerMenu.map((menuItem, i) => (
             <li key={i}>
-              <Link href={menuItem.path}>{menuItem.name}</Link>
+              <Link
+                href={menuItem.path}
+                target={menuItem.name === "Site Map" ? "_blank" : ""}
+              >
+                {menuItem.name}
+              </Link>
             </li>
           ))}
         </ul>

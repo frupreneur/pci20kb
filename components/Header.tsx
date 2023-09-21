@@ -51,8 +51,6 @@ export default function Header() {
                       setoffEl("offEl");
                       document.documentElement.style.cssText =
                         "overflow: null !important";
-                    } else {
-                      setoffEl(" ");
                     }
                   }}
                 >

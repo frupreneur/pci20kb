@@ -41,24 +41,26 @@ export default function Header() {
               <HiMenuAlt3 className="fa-solid fa-bars" />
             )}
           </li>
-          <ul className={`secondary ${offEl}`}>
-            {menu.map((menuItem, i) => (
-              <li key={i}>
-                <Link
-                  href={menuItem.path}
-                  onClick={() => {
-                    if (document.documentElement.clientWidth <= 1171) {
-                      setoffEl("offEl");
-                      document.documentElement.style.cssText =
-                        "overflow: null !important";
-                    }
-                  }}
-                >
-                  {menuItem.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
+          {!offEl && (
+            <ul className={`secondary ${offEl}`}>
+              {menu.map((menuItem, i) => (
+                <li key={i}>
+                  <Link
+                    href={menuItem.path}
+                    onClick={() => {
+                      if (document.documentElement.clientWidth <= 2000) {
+                        setoffEl("offEl");
+                        document.documentElement.style.cssText =
+                          "overflow: null !important";
+                      }
+                    }}
+                  >
+                    {menuItem.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          )}
         </ul>
       </nav>
     </header>

@@ -40,3 +40,17 @@ export const footerMenu: MenuType = [
 
   { name: "Contact us", path: "/contact" },
 ];
+
+
+
+/*
+
+
+* Senegal 3.5x
+* Morrroco 4x
+* Kenya 3.7x
+
+
+
+
+*/ 

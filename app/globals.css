@@ -511,6 +511,13 @@ ul .secondary li {
 
 /* quiz start */
 
+
+.center {
+  display: flex;  
+  flex-direction: row;
+  
+}
+
 .quizContainer {
   border: 1px solid var(--color-primary-300);
   width: 100%;

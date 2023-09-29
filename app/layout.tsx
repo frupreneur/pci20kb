@@ -2,6 +2,7 @@ import "./globals.css";
 import { Header, Footer } from "@/components";
 import { Inter } from "next/font/google";
 import GlobalContextProvider from "@/state";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -43,6 +44,7 @@ export default function RootLayout({
       <head>
         <meta name="google-adsense-account" content="ca-pub-8849438768625360" />
       </head>
+      <Script id="googleAdSenseScript" async strategy="lazyOnload" />
       <body className={inter.className} suppressHydrationWarning={true}>
         <GlobalContextProvider>
           <Header />

@@ -9,11 +9,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
 	metadataBase: new URL("https://photoconvertinto20kb.com"),
-	title: "Photo Convert Into 20Kb - Compress Into 20Kb Online",
+	title: "Photo Convert Into 20Kb - Resize Image To 20kb - Compress Image To 20kb",
 	description: `Here convert your photo like jpg, png, jpeg or any image file into 20kb online. Upload your photo and it will convert/compress photo into 20kb`,
 	themeColor: "#3D0264",
 	openGraph: {
-		title: "Photo Convert Into 20Kb - Compress Into 20Kb Online",
+		title: "Photo Convert Into 20Kb - Resize Image To 20kb - Compress Image To 20kb",
 		description:
 			"Here convert your photo like jpg, png, jpeg or any image file into 20kb online. Upload your photo and it will convert/compress photo into 20kb",
 		url: "https://photoconvertinto20kb.com",
@@ -28,8 +28,8 @@ export const metadata = {
 	},
 	twitter: {
 		card: "Photo_Convert_Into_20Kb",
-		title: "Photo Convert Into 20Kb - Compress Into 20Kb Online",
-		description: "Photo Convert Into 20Kb - Compress Into 20Kb Online",
+		title: "Photo Convert Into 20Kb - Resize Image To 20kb - Compress Image To 20kb",
+		description: "Photo Convert Into 20Kb - Resize Image To 20kb - Compress Image To 20kb",
 		creator: "Photo Convert Into 20Kb",
 		images: ["/assets/og.png"],
 	},
@@ -62,9 +62,22 @@ export default function RootLayout({
 						</div>
 					</main>
 					<Footer />
-          {/* <Ad1/> */}
+					{/* <Ad1/> */}
 				</GlobalContextProvider>
 			</body>
 		</html>
 	);
 }
+
+
+
+/*
+
+image to jpg converter 20kb
+20kb jpg converter
+20kb converter
+compress image to 20kb
+20kb photo size
+photo to jpg converter 20kb
+resize image to 20kb - Compress Image To 20kb
+*/ 

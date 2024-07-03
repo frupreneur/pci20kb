@@ -5,11 +5,11 @@ import firstImage from "@/public/assets/convert photo into 20kb first step.jpg";
 import finalImage from "@/public/assets/convert photo into 20kb final step.jpg";
 import Image from "next/image";
 
-export const metadata = {
-	title: `Photo Convert Into 20Kb - Compress Into 20Kb Online`,
-	description:
-		"Here convert your photo like jpg, png, jpeg or any image file into 20kb online. Upload your photo and it will convert/compress photo into 20kb",
-};
+// export const metadata = {
+// 	title: `Photo Convert Into 20Kb - Compress Into 20Kb Online`,
+// 	description:
+// 		"Here convert your photo like jpg, png, jpeg or any image file into 20kb online. Upload your photo and it will convert/compress photo into 20kb",
+// };
 
 export default function Page20KB() {
 	return (
@@ -18,8 +18,7 @@ export default function Page20KB() {
 				style={{ marginTop: "0 !important" }}
 				className=" text-lg font-medium md:text-3xl"
 			>
-				{`Photo Convert Into 20 Kb`} <br />{" "}
-				{`Compress Photo Size into 20Kb Online`}
+				{`Photo Convert Into 20 Kb`} <br /> {`Compress Image To 20kb`}
 				<br />
 				{`Resize Image To 20kb
 `}
@@ -33,8 +32,6 @@ export default function Page20KB() {
 				<br />
 			</p>
 			<ImageUpload compressTo={{ value: 20000, label: "20KB" }} />
-
-			
 
 			<div style={{ textAlign: "left" }}>
 				<br />
@@ -217,6 +214,85 @@ export default function Page20KB() {
 					Your photos are automatically deleted from our servers a few hours
 					after you are done working with them. Nobody has access to them except
 					you.
+				</p>
+				<h2>Resize Image to 20KB</h2>
+				<p>
+					Our tool makes resizing images to 20KB simple and efficient. Whether
+					you need to adjust the dimensions or compress the image to meet size
+					requirements, our user-friendly interface ensures you get the desired
+					output quickly. Perfect for online submissions or any scenario
+					requiring a compact file size.
+				</p>
+				<h2>Convert Image to JPG 20KB</h2>
+				<p>
+					Easily convert your images to a JPG format with a file size of 20KB
+					using our intuitive tool. It supports various input formats and
+					guarantees high-quality output, ensuring your images retain clarity
+					while meeting size constraints. Ideal for web use and applications
+					with strict size limits.
+				</p>
+				<h2>Photo Convert into 20 KB JPEG</h2>
+				<p>
+					Transform your photos into JPEG files of exactly 20KB effortlessly.
+					Our tool optimizes the conversion process, maintaining the visual
+					integrity of your photos while reducing the file size. Suitable for
+					digital use where small file sizes are crucial.
+				</p>
+				<h2>Photo Convert into 20 KB JPG</h2>
+				<p>
+					With our tool, converting photos into 20KB JPG files is
+					straightforward and quick. Upload your image, and let our tool handle
+					the rest, delivering a high-quality, size-compliant JPG file. Perfect
+					for emails, websites, and any platform where file size is a concern.
+				</p>
+				<h2>Image to JPG Converter 20KB</h2>
+				<p>
+					Our Image to JPG Converter compresses and converts your images to meet
+					the 20KB size requirement efficiently. It supports various image
+					formats and ensures the output is optimized for quality and size. A
+					must-have for professionals needing precise image sizes.
+				</p>
+				<h2>20KB JPG Converter</h2>
+				<p>
+					The 20KB JPG Converter is designed to reduce your image file sizes to
+					exactly 20KB while converting them to JPG format. This tool is perfect
+					for users needing to meet specific size restrictions without
+					compromising on image quality.
+				</p>
+				<h2>20KB Converter</h2>
+				<p>
+					Our 20KB Converter tool is versatile and easy to use, capable of
+					reducing any image to a 20KB file size. This tool is essential for
+					anyone who needs to adhere to strict file size limits, ensuring fast
+					and effective image compression and conversion.
+				</p>
+				<h2>Compress Image to 20KB</h2>
+				<p>
+					Compressing images to 20KB is effortless with our tool. It reduces the
+					file size without significantly affecting the image quality, making it
+					ideal for web uploads, emails, and other digital applications where
+					size is critical.
+				</p>
+				<h2>20KB Photo Size</h2>
+				<p>
+					Achieve a precise 20KB photo size with our advanced tool. It offers
+					reliable compression and conversion options to ensure your photos meet
+					the required specifications, maintaining the balance between size and
+					quality.
+				</p>
+				<h2>Photo to JPG Converter 20KB</h2>
+				<p>
+					Our Photo to JPG Converter 20KB tool simplifies the process of
+					converting and compressing your photos to meet the 20KB size limit.
+					It’s perfect for users who need quick and reliable results for online
+					forms, applications, and more.
+				</p>
+				<h2>Resize Image to 20KB</h2>
+				<p>
+					Resize your images to exactly 20KB with ease using our tool. It offers
+					various resizing options to fit your needs, ensuring your images meet
+					specific file size requirements while preserving their quality. Ideal
+					for personal and professional use.
 				</p>
 				<br />
 				<h2 className="text-left text-primary">

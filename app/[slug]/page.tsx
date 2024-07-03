@@ -31,7 +31,13 @@ export async function generateMetadata(
 export default async function Page({ params }: { params: { slug: string } }) {
   const { content } = await getPostBySlug(params.slug);
 
-  return <div>{content}
-  <Link href="/">Photo Convert Into 20BK</Link>
-  </div>;
+  return (
+    <div>
+      {content}
+      <Link href="/">Photo Convert Into 20KB</Link>
+    </div>
+  );
 }
+
+
+

@@ -11,7 +11,7 @@ export const metadata = {
 		"Here convert your photo like jpg, png, jpeg or any image file into 20kb online. Upload your photo and it will convert/compress photo into 20kb",
 };
 
-export default function Page20KB() {
+export default function StartingWithPage() {
 	return (
 		<>
 			<h1
@@ -32,10 +32,7 @@ export default function Page20KB() {
 				download option, you can download your photo and use it in your work.
 				<br />
 			</p>
-			<ImageUpload compressTo={{ value: 20000, label: "20KB" }} />
-
-			
-
+			<ImageUpload compressTo={{ value: 500000, label: "500KB" }} />
 			<div style={{ textAlign: "left" }}>
 				<br />
 				Welcome to best photo converter into 20kb tool, here just drag and drop

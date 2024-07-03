@@ -14,6 +14,7 @@ const initState: ContextType = {
   unScrambledWord: "",
   setState: () => {},
 };
+
 const GlobalContext = createContext<ContextType>(initState);
 
 export const useGlobalState = () => useContext(GlobalContext);

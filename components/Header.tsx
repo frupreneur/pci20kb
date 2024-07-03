@@ -42,7 +42,7 @@ export default function Header() {
             )}
           </li>
           {!offEl && (
-            <ul className={`secondary ${offEl}`}>
+            <ul className={`secondary ${offEl} text-2xl top`}>
               {menu.map((menuItem, i) => (
                 <li key={i}>
                   <Link

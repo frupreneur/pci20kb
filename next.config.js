@@ -7,3 +7,5 @@ const nextConfig = {
 
 const withMDX = require("@next/mdx")();
 module.exports = withMDX(nextConfig);
+
+import('@opennextjs/cloudflare').then(m => m.initOpenNextCloudflareForDev());
